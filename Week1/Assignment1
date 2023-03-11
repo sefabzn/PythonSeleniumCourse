@@ -1,0 +1,29 @@
+
+#1-Python'da Veri Tiplerini araştırınız, her bir veri tipi için kendi cümlelerinizle açıklamalar yazınız.
+
+Integer = Tam sayılar sayıların tutulduğu veri tipi.
+Float = Ondalıklı sayıların tutulduğu veri tipi.
+String= Metinsel ifadelerin tutulduğu veri tipi.
+List = Birden çok değeri tek bir değişkende saklayabilen veri tipi.(mutable)
+Tuple =Genelde ikili (a,b) değerleri tek bir değişkende saklamak için kullanılan veri tipi.
+Dictionaries = Verileri Anahtar-Değer mantığı ile saklayan liste benzeri veri tipi.(Mutable)
+
+# 2-Kodlama.io sitesinde değişken olarak kullanıldığını düşündüğünüz verileri, veri tipleriyle birlikte örneklendiriniz.
+ Kurs isimleri, üye isimler, buton ve sayfa isimleri string veri tipiyle tutuluyordur.
+ Kurslar ve üyeler toplu olarak listeler içinde tutuluyordur.
+ Kurs tamamlama oranı float veri tipiyle tutuluyordur.
+
+
+# 3-Kodlama.io sitesinde şart blokları kullanıldığını düşündüğünüz kısımları örneklendiriniz ve Python dilinde bu örnekleri koda dökünüz.
+Kategori = ("Tümü","Programlama")
+Eğitmen = ("Tümü","Engin Demiroğ", "Halit Enes Kalayci")
+
+if kategori == "Tümü" :
+  print(kurslar)
+else :
+  print(Programlama Kursları)
+  
+if egitmen == "Engin Demiroğ" :
+  print(list(EnginDemirogKurslar))
+elif egitmen == "Halit Enes Kalayci" :
+   print(List(HalitEnesKalayciKurslar))
