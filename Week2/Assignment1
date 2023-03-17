@@ -1,0 +1,32 @@
+ogrenciler = ["Ali Yılmaz", "Ayşe Demir", "Mehmet Kaya"]
+
+def ogrenci_ekle(ogrenci_adi):
+    ogrenciler.append(ogrenci_adi)
+
+def ogrenci_sil(ogrenci_adi):
+    ogrenciler.remove(ogrenci_adi)
+
+def ogrenci_coklu_ekle(*ogrenci_adlari):
+    for ogrenci in ogrenci_adlari:
+        ogrenciler.append(ogrenci)
+
+def ogrencileri_goster():
+    for ogrenci in ogrenciler:
+        print(ogrenci)
+
+def ogrenci_numarasi(ogrenci_adi):
+    return ogrenciler.index(ogrenci_adi) + 1
+
+def ogrencileri_toplu_sil(*ogrenci_adlari):
+    i = 0
+    while i < len(ogrenciler):
+        if ogrenciler[i] in ogrenci_adlari:
+            ogrenciler.remove(ogrenciler[i])
+        else:
+            i += 1
+
+ogrenci_coklu_ekle("Fatma Kara", "Hasan Güneş", "Zeynep Akın", "Emre Şahin")
+ogrencileri_goster()
+
+ogrencileri_toplu_sil("Ali Yılmaz", "Emre Şahin")
+ogrencileri_goster()
