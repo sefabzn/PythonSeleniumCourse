@@ -1,0 +1,17 @@
+HTML:
+
+HTML (Hyper Text Markup Language), web sayfalarının oluşturulması ve düzenlenmesi için kullanılan bir işaret dilidir. Web sayfalarında kullanılan tüm yapılar HTML kodlarıyla oluşturulur. HTML, internetin temel yapı taşıdır ve web siteleri tarafından kullanılan en yaygın işaret dilidir. HTML, web sayfalarının tasarımını ve içeriğini oluşturmak için kullanılan bir dildir. HTML, etiketlerden oluşur ve bu etiketler web sayfasının görünümünü belirler.
+
+HTML Locators:
+
+Web sayfalarındaki her öğe bir HTML elemanıdır ve HTML koduyla belirtilir. Selenium test senaryolarında HTML elemanlarını tanımlamak için HTML Locator'lar kullanılır. HTML Locator'lar, HTML sayfalarındaki öğeleri belirlemek için kullanılan bir dizi parametredir. Bu parametreler, HTML öğelerinin adını, sınıfını, etiket adını, ID'sini ve diğer özelliklerini içerebilir. Bu parametrelerin kombinasyonu, HTML öğelerini tek bir tanımlayıcı ile belirlemeye yardımcı olur.
+
+Selenium'da Aksiyonlar:
+
+Selenium, web uygulamalarını otomatik olarak test etmek için kullanılan bir araçtır. Selenium WebDriver, web uygulamalarını test etmek için kullanılan en yaygın araçtır. Selenium WebDriver, web sayfasındaki öğeleri bulmak ve bu öğeler üzerinde işlem yapmak için kullanılır. Bazı Selenium WebDriver işlevleri:
+
+send_keys(): Belirli bir öğeye metin girdisi göndermek için kullanılır.
+click(): Belirli bir öğeye tıklamak için kullanılır.
+clear(): Belirli bir öğenin içeriğini temizlemek için kullanılır.
+submit(): Formu göndermek için kullanılır.
+get(): Belirli bir URL'ye gitmek
